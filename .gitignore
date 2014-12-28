@@ -31,3 +31,5 @@ proguard/
 *.log
 
 
+
+lollipoptabs/gradle.properties
