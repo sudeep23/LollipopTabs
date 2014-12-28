@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeWithoutActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <style name="MyToolBarStyle" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+
+        <item name="actionMenuTextColor">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_primary_text_material_dark</item>
+
+    </style>
+
+    <style name="MySlidingTabStyle" parent="Base.Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:textColor">@drawable/tab_text</item>
+    </style>
+</resources>
